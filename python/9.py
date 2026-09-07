@@ -1,6 +1,9 @@
 livros = []
-for volunt in range(5):
-    titulos = str(input('Qual a quantidade : '))
-    livros.append(titulos)
+
+livro1 = input("Digite o nome do livro: ")
+livro2 = input("Digite o nome do livro: ") 
+livro3 = input("Digite o nome do livro: ")   
+
+livros.append(livro1, livro2, livro3)
 
 print(livros)
